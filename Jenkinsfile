@@ -6,7 +6,7 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
 
-        AWS_S3_BUCKET = "maven-project-jar"
+        AWS_S3_BUCKET = "asiri-bucket"
         ARTIFACT_NAME = "learningMaven-1.0-SNAPSHOT.jar"
         AWS_EB_APP_NAME = "ahmed-java"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
